@@ -1,0 +1,7 @@
+Collaborative Filtering is a common approach used in recommendation engines that makes recommendations to users based on the preferences and behaviors of similar users or similar items. It is based on the assumption that users who have similar preferences in the past will have similar preferences in the future.
+
+There are two main types of Collaborative Filtering:
+
+User-Based Collaborative Filtering: In user-based collaborative filtering, recommendations are made to a target user based on the items liked or preferred by other users who are similar to that target user. The similarity between users is calculated based on their past interactions, such as ratings, reviews, or purchase history. The idea is that users who have similar behaviors in the past are likely to have similar behaviors in the future. Once similar users are identified, items that those similar users have liked or interacted with, but the target user has not, can be recommended to the target user.
+
+Item-Based Collaborative Filtering: In item-based collaborative filtering, recommendations are made to a target user based on the similarity between items. The similarity between items is calculated based on user interactions, such as ratings, reviews, or purchase history. The idea is that if two items are often liked or preferred by the same users, they are likely to be similar in terms of user preferences. Once similar items are identified, items that are similar to the ones the target user has liked or interacted with can be recommended to the target user.
